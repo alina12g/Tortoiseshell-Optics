@@ -67,7 +67,7 @@ body{
 /*The white box text*/
 .box-text{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   background-color: white;
@@ -86,19 +86,65 @@ body{
   color: black;
 }
 /*3 images content*/
-#about{
-  display: flex;
-  width: 960px;
-  height: 8rem;
+.content .about{
+  margin-bottom: 3rem;
 }
 /*items displayed*/
+.item1{
+  text-align: center;
+  height: 8rem;
+}
 .item2{
 margin-left: 6rem;
 }
 .item3{
   margin-left: 6rem;
 }
-.description{
-  display: block;
-  
+.item2 p{
+  margin-top: 5rem;
+  text-align: center;
+}
+.item3 p{
+  margin-top: 3.5rem;
+  text-align: center;
+}
+/*PHILOSOPHY and APPOINTMENTS*/
+.business-info{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  align-items: baseline;
+  margin-bottom: 5rem;
+}
+.title{
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  margin-right: auto;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+  margin-right: 5%;
+}
+/*Footer*/
+.footer{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: azure;
+
+}
+.bottom-text{
+  display: inline-flex;
+}
+.footer-info img{
+  height: 1rem;
+  margin-right: 1rem;
 }

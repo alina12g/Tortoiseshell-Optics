@@ -43,17 +43,18 @@ body{
   text-align: center;
   justify-content: center;
 }
+.small-menu{
+  display: none;
+}
 .content{
   width: 960px;
   margin: auto;
-
 }
 
 .about {
-    justify-content: center;
-    display: flex;
-    margin-top: 3rem;
-
+  justify-content: center;
+  display: flex;
+  margin-top: 3rem;
 }
 
   /*Main image*/
@@ -139,7 +140,6 @@ margin-left: 6rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
   background-color: azure;
-
 }
 .bottom-text{
   display: inline-flex;
@@ -147,4 +147,126 @@ margin-left: 6rem;
 .footer-info img{
   height: 1rem;
   margin-right: 1rem;
+}
+/*Tablet screen max screen*/
+@media only screen and (max-width:960px){
+.content{
+  width: inherit;
+}
+.header-full{
+  display: flex;
+  align-items: center;
+  position: relative;
+  width:
+}
+.small-menu{
+  display: none;
+}
+.box-text{
+  margin-right: 2rem;
+  margin-top: 5rem;
+}
+.box-text h1{
+  font-size: 1.33rem;
+  padding: 0.75rem 4rem;
+  }
+}
+@media only screen and (max-width:650px){
+.content{
+  max-width: 100%;
+  margin: 0 auto;
+}
+#img-main{
+  min-height: 17rem;
+  background-position: 20%;
+}
+.box-text{
+  margin: 9rem auto 0 auto;
+  width: max-content;
+}
+.box-text h1{
+  padding: 1rem 0;
+  align-items: center;
+  font-size: 1rem;
+  margin: 0;
+  top: 9rem;
+  float: none;
+  left: 0;
+}
+.nav
+{
+  display: none;
+  }
+.head-logo p{
+  display: none;
+}
+
+.small-menu{
+  display: block;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.small-menu a{
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 1rem;
+  float: right;
+}
+.about{
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.item1{
+  font-size: 0.77rem;
+  margin: 1.54rem 0;
+  justify-content: center;
+  justify-content: flex-start;
+  height: auto;
+}
+.item2{
+  font-size: 0.77rem;
+  margin: 1.54rem 0;
+  justify-content: center;
+  justify-content: flex-start;
+  height: auto;
+}
+.item3{
+  font-size: 0.77rem;
+  margin: 1.54rem 0;
+  justify-content: center;
+  justify-content: flex-start;
+  height: auto;
+}
+.about p{
+  margin-top: 1rem;
+}
+.business-info{
+  display: block;
+}
+.info{
+  width: 100%;
+  float: none;
+  margin-bottom: 4rem;
+}
+.info h3{
+  width: 100%;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+.info p{
+  font-size: 0.77rem;
+  margin: 0 0.5rem;
+}
+.copy-right{
+  display: none;
+}
+.footer-info img{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+
+}
 }

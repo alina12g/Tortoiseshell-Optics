@@ -182,7 +182,7 @@ margin-left: 6rem;
 }
 .box-text{
   margin: 9rem auto 0 auto;
-  width: max-content;
+	width: -webkit-fill-available;
 }
 .box-text h1{
   padding: 1rem 0;
@@ -222,21 +222,21 @@ margin-left: 6rem;
 .item1{
   font-size: 0.77rem;
   margin: 1.54rem 0;
-  justify-content: center;
+  align-items: center;
   justify-content: flex-start;
   height: auto;
 }
 .item2{
   font-size: 0.77rem;
   margin: 1.54rem 0;
-  justify-content: center;
+  align-items: center;
   justify-content: flex-start;
   height: auto;
 }
 .item3{
   font-size: 0.77rem;
   margin: 1.54rem 0;
-  justify-content: center;
+	align-items: center;
   justify-content: flex-start;
   height: auto;
 }
@@ -270,6 +270,8 @@ margin-left: 6rem;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-
+}
+.bottom-text{
+	
 }
 }

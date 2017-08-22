@@ -263,15 +263,17 @@ margin-left: 6rem;
   margin: 0 0.5rem;
 }
 /*Footer*/
+.footer{
+	width: 100%;
+}
 .copy-right{
   display: none;
 }
-.footer-info img{
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-}
 .bottom-text{
-	
+	display: block;
+}
+.footer-info img{
+	display: block;
+	margin: 0 auto;
 }
 }
